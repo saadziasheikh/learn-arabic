@@ -160,3 +160,84 @@ h1 {
   #story { font-size: 1.4rem; line-height: 2.2; }
   .tooltip { white-space: normal; max-width: 80vw; }
 }
+
+/* --- sentence marker --- */
+
+.sentence-marker {
+  display: inline-block;
+  width: 3px;
+  height: 1.2em;
+  background: var(--accent);
+  border: none;
+  border-radius: 2px;
+  padding: 0;
+  margin-inline-end: 6px;
+  vertical-align: -0.15em;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.sentence-marker:hover {
+  opacity: 1;
+  transform: scaleY(1.15);
+}
+
+/* --- modal --- */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.modal-panel {
+  position: relative;
+  background: var(--bg);
+  max-width: 95vw;
+  max-height: 90vh;
+  overflow: auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0.25rem 0.5rem;
+}
+
+.modal-close:hover { color: var(--fg); }
+
+.tree-container {
+  min-width: 60vw;
+  direction: ltr;  /* SVG coordinates are LTR; tokens placed RTL inside */
+}
+
+.tree-container svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tree-form { font-family: "Amiri", "Scheherazade New", "Traditional Arabic", "Noto Naskh Arabic", serif; }
+.tree-pos  { font-family: "Amiri", "Scheherazade New", serif; }
+.tree-gloss { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.tree-rel  { font-family: "Amiri", "Scheherazade New", serif; }

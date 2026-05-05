@@ -976,5 +976,43 @@
     "يُهِمُّنِي": "يُهِمُّنِي - It matters to me - أَهَمَّ | يُهِمُّ - Form IV (أَفْعَلَ)",
     "يُوجَدُ": "يُوجَدُ - It exists / is found - وُجِدَ | يُوجَدُ - Form I (فُعِلَ)",
     "يُوْجَدُ": "يُوْجَدُ - It exists / is found - وُجِدَ | يُوجَدُ - Form I (فُعِلَ)"
-  }
+  },
+  "sentences": [
+    {
+      "id": 0,
+      "tokens": [
+        { "form": "فِي",         "pos": "حرف جر",        "gloss": "in",            "head": 6,  "rel": "متعلّق" },
+        { "form": "بَغْدَادَ",    "pos": "علم",           "gloss": "Baghdad",       "head": 0,  "rel": "اسم مجرور" },
+        { "form": "كَانَ",        "pos": "فعل ماضٍ ناقص", "gloss": "was",          "head": -1, "rel": "ROOT" },
+        { "form": "الْخَلِيفَةُ",  "pos": "اسم",          "gloss": "the caliph",    "head": 2,  "rel": "اسم كان" },
+        { "form": "هَارُونُ",      "pos": "علم",           "gloss": "Harun",         "head": 3,  "rel": "بدل" },
+        { "form": "الرَّشِيدُ",    "pos": "علم",           "gloss": "Al-Rashid",     "head": 4,  "rel": "بدل" },
+        { "form": "يَخْرُجُ",      "pos": "فعل مضارع",     "gloss": "goes out",      "head": 2,  "rel": "خبر كان" },
+        { "form": "سِرًّا",        "pos": "اسم",           "gloss": "secretly",      "head": 6,  "rel": "حال" },
+        { "form": "كَيْ",         "pos": "حرف نصب",        "gloss": "in order to",  "head": 6,  "rel": "حرف تعليل" },
+        { "form": "يَتَفَقَّدَ",   "pos": "فعل مضارع منصوب", "gloss": "to inspect",  "head": 8,  "rel": "مدخول" },
+        { "form": "أَحْوَالَ",     "pos": "اسم",           "gloss": "states of",     "head": 9,  "rel": "مفعول به" },
+        { "form": "النَّاسِ",      "pos": "اسم",           "gloss": "the people",    "head": 10, "rel": "مضاف إليه" }
+      ]
+    },
+    {
+      "id": 1,
+      "tokens": [
+        { "form": "كَانَ",         "pos": "فعل ماضٍ ناقص", "gloss": "was",            "head": -1, "rel": "ROOT" },
+        { "form": "الْخَلِيفَةُ",   "pos": "اسم",           "gloss": "the caliph",     "head": 0,  "rel": "اسم كان" },
+        { "form": "يَلْبَسُ",       "pos": "فعل مضارع",     "gloss": "wears",          "head": 0,  "rel": "خبر كان" },
+        { "form": "مَلَابِسَ",      "pos": "اسم",           "gloss": "clothes",        "head": 2,  "rel": "مفعول به" },
+        { "form": "بَسِيطَةً",      "pos": "صفة",           "gloss": "simple",         "head": 3,  "rel": "نعت" },
+        { "form": "وَ",            "pos": "حرف عطف",        "gloss": "and",            "head": 6,  "rel": "عاطف" },
+        { "form": "يَخْرُجُ",       "pos": "فعل مضارع",     "gloss": "goes out",       "head": 2,  "rel": "معطوف" },
+        { "form": "هُوَ",          "pos": "ضمير",          "gloss": "he",             "head": 6,  "rel": "فاعل" },
+        { "form": "وَ",            "pos": "حرف عطف",        "gloss": "and",            "head": 9,  "rel": "عاطف" },
+        { "form": "وَزِيرُهُ",      "pos": "اسم",           "gloss": "his minister",   "head": 7,  "rel": "معطوف" },
+        { "form": "جَعْفَرَ",       "pos": "علم",           "gloss": "Ja'far",         "head": 9,  "rel": "بدل" },
+        { "form": "وَ",            "pos": "حرف عطف",        "gloss": "and",            "head": 12, "rel": "عاطف" },
+        { "form": "خَادِمُهُ",      "pos": "اسم",           "gloss": "his servant",    "head": 9,  "rel": "معطوف" },
+        { "form": "مَسْرُورٌ",      "pos": "علم",           "gloss": "Masrur",         "head": 12, "rel": "بدل" }
+      ]
+    }
+  ]
 }
