@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arabic Stories</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-index">
+  <main>
+    <h1>Arabic Stories</h1>
+    <ul id="stories" class="story-list"></ul>
+  </main>
+  <script>
+    fetch('data/index.json')
+      .then(r => r.json())
+      .then(items => {
+        const ul = document.getElementById('stories');
+        if (items.length === 0) {
+          ul.innerHTML = '<li class="empty">No stories yet. Run <code>npm run annotate</code>.</li>';
+          return;
+        }
+        for (const it of items) {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `story.html?id=${encodeURIComponent(it.id)}`;
+          a.textContent = it.title;
+          li.appendChild(a);
+          ul.appendChild(li);
+        }
+      })
+      .catch(err => {
+        document.getElementById('stories').innerHTML =
+          '<li class="empty">Could not load stories. Run <code>npm run annotate</code> first.</li>';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>
