@@ -981,37 +981,1567 @@
     {
       "id": 0,
       "tokens": [
-        { "form": "فِي",         "pos": "حرف جر",        "gloss": "in",            "head": 6,  "rel": "متعلّق" },
-        { "form": "بَغْدَادَ",    "pos": "علم",           "gloss": "Baghdad",       "head": 0,  "rel": "اسم مجرور" },
-        { "form": "كَانَ",        "pos": "فعل ماضٍ ناقص", "gloss": "was",          "head": -1, "rel": "ROOT" },
-        { "form": "الْخَلِيفَةُ",  "pos": "اسم",          "gloss": "the caliph",    "head": 2,  "rel": "اسم كان" },
-        { "form": "هَارُونُ",      "pos": "علم",           "gloss": "Harun",         "head": 3,  "rel": "بدل" },
-        { "form": "الرَّشِيدُ",    "pos": "علم",           "gloss": "Al-Rashid",     "head": 4,  "rel": "بدل" },
-        { "form": "يَخْرُجُ",      "pos": "فعل مضارع",     "gloss": "goes out",      "head": 2,  "rel": "خبر كان" },
-        { "form": "سِرًّا",        "pos": "اسم",           "gloss": "secretly",      "head": 6,  "rel": "حال" },
-        { "form": "كَيْ",         "pos": "حرف نصب",        "gloss": "in order to",  "head": 6,  "rel": "حرف تعليل" },
-        { "form": "يَتَفَقَّدَ",   "pos": "فعل مضارع منصوب", "gloss": "to inspect",  "head": 8,  "rel": "مدخول" },
-        { "form": "أَحْوَالَ",     "pos": "اسم",           "gloss": "states of",     "head": 9,  "rel": "مفعول به" },
-        { "form": "النَّاسِ",      "pos": "اسم",           "gloss": "the people",    "head": 10, "rel": "مضاف إليه" }
+        {
+          "form": "فِي",
+          "pos": "حرف جر",
+          "gloss": "in",
+          "head": 6,
+          "rel": "متعلّق"
+        },
+        {
+          "form": "بَغْدَادَ",
+          "pos": "علم",
+          "gloss": "Baghdad",
+          "head": 0,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "كَانَ",
+          "pos": "فعل ماضٍ ناقص",
+          "gloss": "was",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الْخَلِيفَةُ",
+          "pos": "اسم",
+          "gloss": "the caliph",
+          "head": 2,
+          "rel": "اسم كان"
+        },
+        {
+          "form": "هَارُونُ",
+          "pos": "علم",
+          "gloss": "Harun",
+          "head": 3,
+          "rel": "بدل"
+        },
+        {
+          "form": "الرَّشِيدُ",
+          "pos": "علم",
+          "gloss": "Al-Rashid",
+          "head": 4,
+          "rel": "بدل"
+        },
+        {
+          "form": "يَخْرُجُ",
+          "pos": "فعل مضارع",
+          "gloss": "goes out",
+          "head": 2,
+          "rel": "خبر كان"
+        },
+        {
+          "form": "سِرًّا",
+          "pos": "اسم",
+          "gloss": "secretly",
+          "head": 6,
+          "rel": "حال"
+        },
+        {
+          "form": "كَيْ",
+          "pos": "حرف نصب",
+          "gloss": "in order to",
+          "head": 6,
+          "rel": "حرف تعليل"
+        },
+        {
+          "form": "يَتَفَقَّدَ",
+          "pos": "فعل مضارع منصوب",
+          "gloss": "to inspect",
+          "head": 8,
+          "rel": "مدخول"
+        },
+        {
+          "form": "أَحْوَالَ",
+          "pos": "اسم",
+          "gloss": "states of",
+          "head": 9,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "النَّاسِ",
+          "pos": "اسم",
+          "gloss": "the people",
+          "head": 10,
+          "rel": "مضاف إليه"
+        }
       ]
     },
     {
       "id": 1,
       "tokens": [
-        { "form": "كَانَ",         "pos": "فعل ماضٍ ناقص", "gloss": "was",            "head": -1, "rel": "ROOT" },
-        { "form": "الْخَلِيفَةُ",   "pos": "اسم",           "gloss": "the caliph",     "head": 0,  "rel": "اسم كان" },
-        { "form": "يَلْبَسُ",       "pos": "فعل مضارع",     "gloss": "wears",          "head": 0,  "rel": "خبر كان" },
-        { "form": "مَلَابِسَ",      "pos": "اسم",           "gloss": "clothes",        "head": 2,  "rel": "مفعول به" },
-        { "form": "بَسِيطَةً",      "pos": "صفة",           "gloss": "simple",         "head": 3,  "rel": "نعت" },
-        { "form": "وَ",            "pos": "حرف عطف",        "gloss": "and",            "head": 6,  "rel": "عاطف" },
-        { "form": "يَخْرُجُ",       "pos": "فعل مضارع",     "gloss": "goes out",       "head": 2,  "rel": "معطوف" },
-        { "form": "هُوَ",          "pos": "ضمير",          "gloss": "he",             "head": 6,  "rel": "فاعل" },
-        { "form": "وَ",            "pos": "حرف عطف",        "gloss": "and",            "head": 9,  "rel": "عاطف" },
-        { "form": "وَزِيرُهُ",      "pos": "اسم",           "gloss": "his minister",   "head": 7,  "rel": "معطوف" },
-        { "form": "جَعْفَرَ",       "pos": "علم",           "gloss": "Ja'far",         "head": 9,  "rel": "بدل" },
-        { "form": "وَ",            "pos": "حرف عطف",        "gloss": "and",            "head": 12, "rel": "عاطف" },
-        { "form": "خَادِمُهُ",      "pos": "اسم",           "gloss": "his servant",    "head": 9,  "rel": "معطوف" },
-        { "form": "مَسْرُورٌ",      "pos": "علم",           "gloss": "Masrur",         "head": 12, "rel": "بدل" }
+        {
+          "form": "كَانَ",
+          "pos": "فعل ماضٍ ناقص",
+          "gloss": "was",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الْخَلِيفَةُ",
+          "pos": "اسم",
+          "gloss": "the caliph",
+          "head": 0,
+          "rel": "اسم كان"
+        },
+        {
+          "form": "يَلْبَسُ",
+          "pos": "فعل مضارع",
+          "gloss": "wears",
+          "head": 0,
+          "rel": "خبر كان"
+        },
+        {
+          "form": "مَلَابِسَ",
+          "pos": "اسم",
+          "gloss": "clothes",
+          "head": 2,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "بَسِيطَةً",
+          "pos": "صفة",
+          "gloss": "simple",
+          "head": 3,
+          "rel": "نعت"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 6,
+          "rel": "عاطف"
+        },
+        {
+          "form": "يَخْرُجُ",
+          "pos": "فعل مضارع",
+          "gloss": "goes out",
+          "head": 2,
+          "rel": "معطوف"
+        },
+        {
+          "form": "هُوَ",
+          "pos": "ضمير",
+          "gloss": "he",
+          "head": 6,
+          "rel": "فاعل"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 9,
+          "rel": "عاطف"
+        },
+        {
+          "form": "وَزِيرُهُ",
+          "pos": "اسم",
+          "gloss": "his minister",
+          "head": 7,
+          "rel": "معطوف"
+        },
+        {
+          "form": "جَعْفَرَ",
+          "pos": "علم",
+          "gloss": "Ja'far",
+          "head": 9,
+          "rel": "بدل"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 12,
+          "rel": "عاطف"
+        },
+        {
+          "form": "خَادِمُهُ",
+          "pos": "اسم",
+          "gloss": "his servant",
+          "head": 9,
+          "rel": "معطوف"
+        },
+        {
+          "form": "مَسْرُورٌ",
+          "pos": "علم",
+          "gloss": "Masrur",
+          "head": 12,
+          "rel": "بدل"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tokens": [
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 4,
+          "rel": "استئناف"
+        },
+        {
+          "form": "فِي",
+          "pos": "حرف جر",
+          "gloss": "in",
+          "head": 4,
+          "rel": "متعلّق"
+        },
+        {
+          "form": "أَحَدِ",
+          "pos": "اسم",
+          "gloss": "one of",
+          "head": 1,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "الْأَيَّامِ",
+          "pos": "اسم",
+          "gloss": "the days",
+          "head": 2,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "كَانَ",
+          "pos": "فعل ماضٍ ناقص",
+          "gloss": "was",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الْخَلِيفَةُ",
+          "pos": "اسم",
+          "gloss": "the caliph",
+          "head": 4,
+          "rel": "اسم كان"
+        },
+        {
+          "form": "هَارُونُ",
+          "pos": "علم",
+          "gloss": "Harun",
+          "head": 5,
+          "rel": "بدل"
+        },
+        {
+          "form": "الرَّشِيدُ",
+          "pos": "علم",
+          "gloss": "Al-Rashid",
+          "head": 6,
+          "rel": "بدل"
+        },
+        {
+          "form": "يَتَجَوَّلُ",
+          "pos": "فعل مضارع",
+          "gloss": "wandered",
+          "head": 4,
+          "rel": "خبر كان"
+        },
+        {
+          "form": "قُرْبَ",
+          "pos": "ظرف",
+          "gloss": "near",
+          "head": 8,
+          "rel": "ظرف مكان"
+        },
+        {
+          "form": "نَهْرِ",
+          "pos": "اسم",
+          "gloss": "river of",
+          "head": 9,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "دِجْلَةَ",
+          "pos": "علم",
+          "gloss": "Tigris",
+          "head": 10,
+          "rel": "مضاف إليه"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "tokens": [
+        {
+          "form": "رَأَى",
+          "pos": "فعل ماضٍ",
+          "gloss": "saw",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الْخَلِيفَةُ",
+          "pos": "اسم",
+          "gloss": "the caliph",
+          "head": 0,
+          "rel": "فاعل"
+        },
+        {
+          "form": "رَجُلًا",
+          "pos": "اسم",
+          "gloss": "a man",
+          "head": 0,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "جَالِسًا",
+          "pos": "اسم",
+          "gloss": "sitting",
+          "head": 2,
+          "rel": "نعت"
+        },
+        {
+          "form": "تَحْتَ",
+          "pos": "ظرف",
+          "gloss": "under",
+          "head": 3,
+          "rel": "ظرف مكان"
+        },
+        {
+          "form": "شَجَرَةٍ",
+          "pos": "اسم",
+          "gloss": "a tree",
+          "head": 4,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 8,
+          "rel": "واو الحال"
+        },
+        {
+          "form": "أَمَامَهُ",
+          "pos": "ظرف",
+          "gloss": "in front of him",
+          "head": 8,
+          "rel": "خبر مقدم"
+        },
+        {
+          "form": "شَبَكَةُ",
+          "pos": "اسم",
+          "gloss": "net of",
+          "head": 2,
+          "rel": "حال"
+        },
+        {
+          "form": "صَيْدٍ",
+          "pos": "اسم",
+          "gloss": "fishing",
+          "head": 8,
+          "rel": "مضاف إليه"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "tokens": [
+        {
+          "form": "كَانَ",
+          "pos": "فعل ماضٍ ناقص",
+          "gloss": "was",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الرَّجُلُ",
+          "pos": "اسم",
+          "gloss": "the man",
+          "head": 0,
+          "rel": "اسم كان"
+        },
+        {
+          "form": "يُمْسِكُ",
+          "pos": "فعل مضارع",
+          "gloss": "holds",
+          "head": 0,
+          "rel": "خبر كان"
+        },
+        {
+          "form": "رَأْسَهُ",
+          "pos": "اسم",
+          "gloss": "his head",
+          "head": 2,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "بِ",
+          "pos": "حرف جر",
+          "gloss": "with",
+          "head": 2,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "كَفَّيْهِ",
+          "pos": "اسم",
+          "gloss": "his palms",
+          "head": 4,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 7,
+          "rel": "عاطف"
+        },
+        {
+          "form": "كَانَ",
+          "pos": "فعل ماضٍ ناقص",
+          "gloss": "was",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "حَزِينًا",
+          "pos": "صفة",
+          "gloss": "sad",
+          "head": 7,
+          "rel": "خبر كان"
+        },
+        {
+          "form": "شَاحِبًا",
+          "pos": "صفة",
+          "gloss": "pale",
+          "head": 7,
+          "rel": "خبر ثانٍ"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "tokens": [
+        {
+          "form": "اِقْتَرَبَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "approached",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الْخَلِيفَةُ",
+          "pos": "اسم",
+          "gloss": "the caliph",
+          "head": 0,
+          "rel": "فاعل"
+        },
+        {
+          "form": "مِنَ",
+          "pos": "حرف جر",
+          "gloss": "from",
+          "head": 0,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "الرَّجُلِ",
+          "pos": "اسم",
+          "gloss": "the man",
+          "head": 2,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 5,
+          "rel": "عاطف"
+        },
+        {
+          "form": "قَالَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "said",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "السَّلَامُ",
+          "pos": "اسم",
+          "gloss": "peace",
+          "head": 5,
+          "rel": "مقول القول"
+        },
+        {
+          "form": "عَلَيْكُمْ",
+          "pos": "ظرف",
+          "gloss": "upon you",
+          "head": 6,
+          "rel": "خبر"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 9,
+          "rel": "عاطف"
+        },
+        {
+          "form": "رَحْمَةُ",
+          "pos": "اسم",
+          "gloss": "mercy of",
+          "head": 6,
+          "rel": "معطوف"
+        },
+        {
+          "form": "اللهِ",
+          "pos": "علم",
+          "gloss": "Allah",
+          "head": 9,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 12,
+          "rel": "عاطف"
+        },
+        {
+          "form": "بَرَكَاتُهُ",
+          "pos": "اسم",
+          "gloss": "his blessings",
+          "head": 6,
+          "rel": "معطوف"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "tokens": [
+        {
+          "form": "رَفَعَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "raised",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الرَّجُلُ",
+          "pos": "اسم",
+          "gloss": "the man",
+          "head": 0,
+          "rel": "فاعل"
+        },
+        {
+          "form": "الشَّاحِبُ",
+          "pos": "صفة",
+          "gloss": "the pale",
+          "head": 1,
+          "rel": "نعت"
+        },
+        {
+          "form": "رَأْسَهُ",
+          "pos": "اسم",
+          "gloss": "his head",
+          "head": 0,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 5,
+          "rel": "عاطف"
+        },
+        {
+          "form": "رَدَّ",
+          "pos": "فعل ماضٍ",
+          "gloss": "replied",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 7,
+          "rel": "زائد"
+        },
+        {
+          "form": "عَلَيْكُمُ",
+          "pos": "ظرف",
+          "gloss": "upon you",
+          "head": 8,
+          "rel": "خبر مقدم"
+        },
+        {
+          "form": "السَّلَامُ",
+          "pos": "اسم",
+          "gloss": "peace",
+          "head": 5,
+          "rel": "مقول القول"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 10,
+          "rel": "عاطف"
+        },
+        {
+          "form": "رَحْمَةُ",
+          "pos": "اسم",
+          "gloss": "mercy of",
+          "head": 8,
+          "rel": "معطوف"
+        },
+        {
+          "form": "اللهِ",
+          "pos": "علم",
+          "gloss": "Allah",
+          "head": 10,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 13,
+          "rel": "عاطف"
+        },
+        {
+          "form": "بَرَكَاتُهُ",
+          "pos": "اسم",
+          "gloss": "his blessings",
+          "head": 8,
+          "rel": "معطوف"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "tokens": [
+        {
+          "form": "ثُمَّ",
+          "pos": "حرف عطف",
+          "gloss": "then",
+          "head": 1,
+          "rel": "عاطف"
+        },
+        {
+          "form": "عَادَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "returned",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "يَنْظُرُ",
+          "pos": "فعل مضارع",
+          "gloss": "looking",
+          "head": 1,
+          "rel": "حال"
+        },
+        {
+          "form": "إِلَى",
+          "pos": "حرف جر",
+          "gloss": "to",
+          "head": 2,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "شَبَكَتِهِ",
+          "pos": "اسم",
+          "gloss": "his net",
+          "head": 3,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "فَ",
+          "pos": "حرف عطف",
+          "gloss": "so",
+          "head": 6,
+          "rel": "عاطف"
+        },
+        {
+          "form": "قَالَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "said",
+          "head": 1,
+          "rel": "معطوف"
+        },
+        {
+          "form": "الْخَلِيفَةُ",
+          "pos": "اسم",
+          "gloss": "the caliph",
+          "head": 6,
+          "rel": "فاعل"
+        },
+        {
+          "form": "أَنْتَ",
+          "pos": "ضمير",
+          "gloss": "you",
+          "head": 9,
+          "rel": "مبتدأ"
+        },
+        {
+          "form": "صَيَّادٌ",
+          "pos": "اسم",
+          "gloss": "fisherman",
+          "head": 6,
+          "rel": "مقول القول"
+        },
+        {
+          "form": "صَحِيح",
+          "pos": "صفة",
+          "gloss": "right",
+          "head": 9,
+          "rel": "تأكيد"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "tokens": [
+        {
+          "form": "وَقَفَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "stood",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الرَّجُلُ",
+          "pos": "اسم",
+          "gloss": "the man",
+          "head": 0,
+          "rel": "فاعل"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 3,
+          "rel": "عاطف"
+        },
+        {
+          "form": "رَفَعَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "raised",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "شَبَكَتَهُ",
+          "pos": "اسم",
+          "gloss": "his net",
+          "head": 3,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "قَائِلًا",
+          "pos": "اسم",
+          "gloss": "saying",
+          "head": 3,
+          "rel": "حال"
+        },
+        {
+          "form": "أَنَا",
+          "pos": "ضمير",
+          "gloss": "I",
+          "head": 7,
+          "rel": "مبتدأ"
+        },
+        {
+          "form": "صَيَّادٌ",
+          "pos": "اسم",
+          "gloss": "fisherman",
+          "head": 5,
+          "rel": "مقول القول"
+        },
+        {
+          "form": "ذُو",
+          "pos": "اسم",
+          "gloss": "possessor of",
+          "head": 7,
+          "rel": "نعت"
+        },
+        {
+          "form": "حَظٍّ",
+          "pos": "اسم",
+          "gloss": "luck",
+          "head": 8,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "سَيْءٍ",
+          "pos": "صفة",
+          "gloss": "bad",
+          "head": 9,
+          "rel": "نعت"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "tokens": [
+        {
+          "form": "لَا",
+          "pos": "حرف نفي",
+          "gloss": "not",
+          "head": 1,
+          "rel": "نافية"
+        },
+        {
+          "form": "أَصِيدُ",
+          "pos": "فعل مضارع",
+          "gloss": "I catch",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "إِلَّا",
+          "pos": "أداة استثناء",
+          "gloss": "except",
+          "head": 3,
+          "rel": "استثناء"
+        },
+        {
+          "form": "الْخُرْدَةَ",
+          "pos": "اسم",
+          "gloss": "the junk",
+          "head": 1,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "الَّتِي",
+          "pos": "اسم موصول",
+          "gloss": "which",
+          "head": 3,
+          "rel": "نعت"
+        },
+        {
+          "form": "يُلْقِيهَا",
+          "pos": "فعل مضارع",
+          "gloss": "throws it",
+          "head": 4,
+          "rel": "صلة الموصول"
+        },
+        {
+          "form": "النَّاسُ",
+          "pos": "اسم",
+          "gloss": "the people",
+          "head": 5,
+          "rel": "فاعل"
+        },
+        {
+          "form": "فِي",
+          "pos": "حرف جر",
+          "gloss": "in",
+          "head": 5,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "النَّهْرِ",
+          "pos": "اسم",
+          "gloss": "the river",
+          "head": 7,
+          "rel": "اسم مجرور"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "tokens": [
+        {
+          "form": "لَا",
+          "pos": "حرف نفي",
+          "gloss": "not",
+          "head": 1,
+          "rel": "نافية"
+        },
+        {
+          "form": "أَسْتَطِيعُ",
+          "pos": "فعل مضارع",
+          "gloss": "I can",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "أَنْ",
+          "pos": "حرف نصب",
+          "gloss": "to",
+          "head": 3,
+          "rel": "حرف نصب"
+        },
+        {
+          "form": "أَعُودَ",
+          "pos": "فعل مضارع",
+          "gloss": "return",
+          "head": 1,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "إِلَى",
+          "pos": "حرف جر",
+          "gloss": "to",
+          "head": 3,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "الْبَيْتِ",
+          "pos": "اسم",
+          "gloss": "the house",
+          "head": 4,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "دُونَ",
+          "pos": "ظرف",
+          "gloss": "without",
+          "head": 3,
+          "rel": "ظرف"
+        },
+        {
+          "form": "أَنْ",
+          "pos": "حرف نصب",
+          "gloss": "to",
+          "head": 8,
+          "rel": "حرف نصب"
+        },
+        {
+          "form": "أَصِيدَ",
+          "pos": "فعل مضارع",
+          "gloss": "catch",
+          "head": 6,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "شَيْئًا",
+          "pos": "اسم",
+          "gloss": "anything",
+          "head": 8,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "لِأَنِّي",
+          "pos": "حرف تعليل",
+          "gloss": "because I",
+          "head": 1,
+          "rel": "تعليل"
+        },
+        {
+          "form": "فَقِيرٌ",
+          "pos": "صفة",
+          "gloss": "poor",
+          "head": 10,
+          "rel": "خبر إن"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 14,
+          "rel": "عاطف"
+        },
+        {
+          "form": "لَمْ",
+          "pos": "حرف جزم",
+          "gloss": "not",
+          "head": 14,
+          "rel": "جازمة"
+        },
+        {
+          "form": "أُطْعِمْ",
+          "pos": "فعل مضارع مجزوم",
+          "gloss": "fed",
+          "head": 10,
+          "rel": "معطوف"
+        },
+        {
+          "form": "عَائِلَتِي",
+          "pos": "اسم",
+          "gloss": "my family",
+          "head": 14,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "مُنْذُ",
+          "pos": "حرف جر",
+          "gloss": "since",
+          "head": 14,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "يَوْمَيْنِ",
+          "pos": "اسم",
+          "gloss": "two days",
+          "head": 16,
+          "rel": "اسم مجرور"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "tokens": [
+        {
+          "form": "لَا",
+          "pos": "حرف نفي",
+          "gloss": "not",
+          "head": 1,
+          "rel": "نافية"
+        },
+        {
+          "form": "أَدْرِي",
+          "pos": "فعل مضارع",
+          "gloss": "I know",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "مَا",
+          "pos": "اسم موصول",
+          "gloss": "what",
+          "head": 1,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "أَفْعَلُ",
+          "pos": "فعل مضارع",
+          "gloss": "I do",
+          "head": 2,
+          "rel": "صلة الموصول"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "tokens": [
+        {
+          "form": "تَنَهَّدَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "sighed",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الصَّيَّادُ",
+          "pos": "اسم",
+          "gloss": "the fisherman",
+          "head": 0,
+          "rel": "فاعل"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 3,
+          "rel": "عاطف"
+        },
+        {
+          "form": "جَمَعَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "gathered",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "الشَّبَكَةَ",
+          "pos": "اسم",
+          "gloss": "the net",
+          "head": 3,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 6,
+          "rel": "عاطف"
+        },
+        {
+          "form": "هَمَّ",
+          "pos": "فعل ماضٍ",
+          "gloss": "intended",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "أَنْ",
+          "pos": "حرف نصب",
+          "gloss": "to",
+          "head": 8,
+          "rel": "حرف نصب"
+        },
+        {
+          "form": "يُغَادِرَ",
+          "pos": "فعل مضارع",
+          "gloss": "leave",
+          "head": 6,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "لَكِنَّ",
+          "pos": "حرف استدراك",
+          "gloss": "but",
+          "head": 0,
+          "rel": "استدراك"
+        },
+        {
+          "form": "الْخَلِيفَةَ",
+          "pos": "اسم",
+          "gloss": "the caliph",
+          "head": 9,
+          "rel": "اسم لكن"
+        },
+        {
+          "form": "قَالَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "said",
+          "head": 9,
+          "rel": "خبر لكن"
+        },
+        {
+          "form": "اِنْتَظِرْ",
+          "pos": "فعل أمر",
+          "gloss": "wait",
+          "head": 11,
+          "rel": "مقول القول"
+        },
+        {
+          "form": "أَيُّهَا",
+          "pos": "حرف نداء",
+          "gloss": "O",
+          "head": 12,
+          "rel": "منادى"
+        },
+        {
+          "form": "الصَّيَّادُ",
+          "pos": "اسم",
+          "gloss": "fisherman",
+          "head": 13,
+          "rel": "بدل"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "tokens": [
+        {
+          "form": "هَلْ",
+          "pos": "حرف استفهام",
+          "gloss": "Q-particle",
+          "head": 1,
+          "rel": "حرف استفهام"
+        },
+        {
+          "form": "سَتَعُودُ",
+          "pos": "فعل مضارع",
+          "gloss": "will return",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "إِلَى",
+          "pos": "حرف جر",
+          "gloss": "to",
+          "head": 1,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "بَيْتِكَ",
+          "pos": "اسم",
+          "gloss": "your house",
+          "head": 2,
+          "rel": "اسم مجرور"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "tokens": [
+        {
+          "form": "ضَحِكَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "laughed",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الصَّيَّادُ",
+          "pos": "اسم",
+          "gloss": "the fisherman",
+          "head": 0,
+          "rel": "فاعل"
+        },
+        {
+          "form": "سَاخِرًا",
+          "pos": "اسم",
+          "gloss": "mockingly",
+          "head": 0,
+          "rel": "حال"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 4,
+          "rel": "عاطف"
+        },
+        {
+          "form": "قَالَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "said",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "أَعُودُ",
+          "pos": "فعل مضارع",
+          "gloss": "I return",
+          "head": 4,
+          "rel": "مقول القول"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "tokens": [
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 2,
+          "rel": "استئناف"
+        },
+        {
+          "form": "مَاذَا",
+          "pos": "اسم استفهام",
+          "gloss": "what",
+          "head": 2,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "أَقُولُ",
+          "pos": "فعل مضارع",
+          "gloss": "I say",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "لَهُم",
+          "pos": "ظرف",
+          "gloss": "to them",
+          "head": 2,
+          "rel": "جار ومجرور"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "tokens": [
+        {
+          "form": "لَا",
+          "pos": "حرف نفي",
+          "gloss": "no",
+          "head": -1,
+          "rel": "ROOT"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "tokens": [
+        {
+          "form": "سَأَذْهَبُ",
+          "pos": "فعل مضارع",
+          "gloss": "will go",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "كَيْ",
+          "pos": "حرف نصب",
+          "gloss": "in order to",
+          "head": 0,
+          "rel": "حرف تعليل"
+        },
+        {
+          "form": "أَبْحَثَ",
+          "pos": "فعل مضارع منصوب",
+          "gloss": "search",
+          "head": 1,
+          "rel": "مدخول كي"
+        },
+        {
+          "form": "عَنْ",
+          "pos": "حرف جر",
+          "gloss": "for",
+          "head": 2,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "عَمَلٍ",
+          "pos": "اسم",
+          "gloss": "work",
+          "head": 3,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "آخَرَ",
+          "pos": "صفة",
+          "gloss": "other",
+          "head": 4,
+          "rel": "نعت"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "tokens": [
+        {
+          "form": "الْأَبُ",
+          "pos": "اسم",
+          "gloss": "the father",
+          "head": 2,
+          "rel": "مبتدأ"
+        },
+        {
+          "form": "لَا",
+          "pos": "حرف نفي",
+          "gloss": "not",
+          "head": 2,
+          "rel": "نافية"
+        },
+        {
+          "form": "يُمْكِنُ",
+          "pos": "فعل مضارع",
+          "gloss": "is possible",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "أَنْ",
+          "pos": "حرف نصب",
+          "gloss": "to",
+          "head": 4,
+          "rel": "حرف نصب"
+        },
+        {
+          "form": "يَتَخَاذَلَ",
+          "pos": "فعل مضارع منصوب",
+          "gloss": "give up",
+          "head": 2,
+          "rel": "فاعل"
+        },
+        {
+          "form": "لِأَنَّهُ",
+          "pos": "حرف تعليل",
+          "gloss": "because he",
+          "head": 2,
+          "rel": "تعليل"
+        },
+        {
+          "form": "سَوْفَ",
+          "pos": "حرف استقبال",
+          "gloss": "will",
+          "head": 7,
+          "rel": "حرف استقبال"
+        },
+        {
+          "form": "يَرَى",
+          "pos": "فعل مضارع",
+          "gloss": "see",
+          "head": 5,
+          "rel": "خبر أن"
+        },
+        {
+          "form": "وُجُوهَ",
+          "pos": "اسم",
+          "gloss": "faces of",
+          "head": 7,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "أَطْفَالِهِ",
+          "pos": "اسم",
+          "gloss": "his children",
+          "head": 8,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "الْجِيَاعِ",
+          "pos": "صفة",
+          "gloss": "the hungry",
+          "head": 9,
+          "rel": "نعت"
+        },
+        {
+          "form": "حِينَ",
+          "pos": "ظرف",
+          "gloss": "when",
+          "head": 7,
+          "rel": "ظرف زمان"
+        },
+        {
+          "form": "يَعُودَ",
+          "pos": "فعل مضارع منصوب",
+          "gloss": "returns",
+          "head": 11,
+          "rel": "مضاف إليه"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "tokens": [
+        {
+          "form": "اِبْتَسَمَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "smiled",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "الْخَلِيفَةُ",
+          "pos": "اسم",
+          "gloss": "the caliph",
+          "head": 0,
+          "rel": "فاعل"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 3,
+          "rel": "عاطف"
+        },
+        {
+          "form": "قَالَ",
+          "pos": "فعل ماضٍ",
+          "gloss": "said",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "اِنْتَظِرْ",
+          "pos": "فعل أمر",
+          "gloss": "wait",
+          "head": 3,
+          "rel": "مقول القول"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "tokens": [
+        {
+          "form": "اِقْذِفْ",
+          "pos": "فعل أمر",
+          "gloss": "throw",
+          "head": -1,
+          "rel": "ROOT"
+        },
+        {
+          "form": "شَبَكَتَكَ",
+          "pos": "اسم",
+          "gloss": "your net",
+          "head": 0,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "فِي",
+          "pos": "حرف جر",
+          "gloss": "in",
+          "head": 0,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "النَّهْرِ",
+          "pos": "اسم",
+          "gloss": "the river",
+          "head": 2,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "وَ",
+          "pos": "حرف عطف",
+          "gloss": "and",
+          "head": 6,
+          "rel": "عاطف"
+        },
+        {
+          "form": "سَوْفَ",
+          "pos": "حرف استقبال",
+          "gloss": "will",
+          "head": 6,
+          "rel": "حرف استقبال"
+        },
+        {
+          "form": "أَشْتَرِي",
+          "pos": "فعل مضارع",
+          "gloss": "buy",
+          "head": 0,
+          "rel": "معطوف"
+        },
+        {
+          "form": "أَيَّ",
+          "pos": "اسم",
+          "gloss": "any",
+          "head": 6,
+          "rel": "مفعول به"
+        },
+        {
+          "form": "شَيْءٍ",
+          "pos": "اسم",
+          "gloss": "thing",
+          "head": 7,
+          "rel": "مضاف إليه"
+        },
+        {
+          "form": "تَصْطَادُهُ",
+          "pos": "فعل مضارع",
+          "gloss": "you catch",
+          "head": 8,
+          "rel": "نعت"
+        },
+        {
+          "form": "بِ",
+          "pos": "حرف جر",
+          "gloss": "for",
+          "head": 6,
+          "rel": "حرف جر"
+        },
+        {
+          "form": "مَائَةِ",
+          "pos": "اسم",
+          "gloss": "hundred",
+          "head": 10,
+          "rel": "اسم مجرور"
+        },
+        {
+          "form": "دِينَارٍ",
+          "pos": "اسم",
+          "gloss": "dinars",
+          "head": 11,
+          "rel": "مضاف إليه"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "tokens": [
+        {
+          "form": "هَلْ",
+          "pos": "حرف استفهام",
+          "gloss": "Q-particle",
+          "head": 2,
+          "rel": "حرف استفهام"
+        },
+        {
+          "form": "أَنْتَ",
+          "pos": "ضمير",
+          "gloss": "you",
+          "head": 2,
+          "rel": "مبتدأ"
+        },
+        {
+          "form": "مُوَافِقٌ",
+          "pos": "صفة",
+          "gloss": "agreeing",
+          "head": -1,
+          "rel": "ROOT"
+        }
       ]
     }
   ]
