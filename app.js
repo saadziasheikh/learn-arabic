@@ -219,12 +219,14 @@ function openTreeModal(sid) {
   const tree = sentences.find(s => s.id === sid);
   if (!tree) return;
   treeEl.innerHTML = renderTree(tree);
-  modalEl.hidden = false;
+  modalEl.style.display = '';
+  modalEl.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
 function closeTreeModal() {
-  modalEl.hidden = true;
+  modalEl.classList.remove('open');
+  modalEl.style.display = 'none';
   treeEl.innerHTML = '';
   document.body.style.overflow = '';
 }
@@ -300,7 +302,7 @@ document.addEventListener('click', e => {
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
-    if (!modalEl.hidden) closeTreeModal();
+    if (modalEl.classList.contains('open')) closeTreeModal();
     else hideTooltip();
   }
 });

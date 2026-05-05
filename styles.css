@@ -186,16 +186,16 @@ h1 {
 /* --- modal --- */
 
 .modal {
+  display: none;
   position: fixed;
   inset: 0;
   z-index: 200;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.modal[hidden] {
-  display: none;
+.modal.open {
+  display: flex;
 }
 
 .modal-backdrop {
